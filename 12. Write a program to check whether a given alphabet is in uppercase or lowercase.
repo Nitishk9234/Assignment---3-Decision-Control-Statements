@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+   char x;
+    printf("enter a charcter \n");
+    scanf("%c",&x);
+    if (x>='A' && x<='Z')
+        //%c is used for char
+        printf("uppercase alphabet %c",x);
+    else
+        printf("lowercase %c",x);
+    getch();
+
+}
