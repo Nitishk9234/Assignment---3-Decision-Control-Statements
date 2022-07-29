@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+   int n;
+   printf("Enter a value \n");
+   scanf("%d",&n);
+   /*(odd/2)*2=even
+   6/2=3
+   5/2=2 in c language*/
+   if(n/2*2==n)
+    printf("even");
+   else
+    printf("odd");
+
+    getch();
+
+}
