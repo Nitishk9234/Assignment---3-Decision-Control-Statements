@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+   int a,b,c,D;
+   printf("enter a value: \n");
+   scanf("%d%d%d",&a,&b,&c);
+
+   D=(b*b)-(4*a*c);
+   if(D>0)
+      printf("real and distant");
+   else
+    if(D=0)
+    printf("real and equal");
+   else
+    printf("imaginary roots");
+   return 0;
+
+}
