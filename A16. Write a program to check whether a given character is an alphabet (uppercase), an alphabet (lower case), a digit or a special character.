@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+   char x;
+   printf("Enter a character: \n");
+   scanf("%c",&x);
+
+   if (x>='A' && x<='Z')
+    printf("uppercase alphabet");
+   else
+    if(x>='a' && x<='z')
+     printf("lowercase alphabet");
+    else
+        if(x>='0' && x<='9')
+    printf("digit");
+    else
+        printf("special character");
+
+   return 0;
+
+}
