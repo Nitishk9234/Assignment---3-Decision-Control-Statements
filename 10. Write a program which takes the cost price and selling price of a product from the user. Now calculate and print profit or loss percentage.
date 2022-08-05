@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+   float cp,sp,profit,loss;
+   printf("enter a cp and sp value :\n");
+   scanf("%f %f",&cp,&sp);
+   profit=sp-cp;
+   loss=cp-sp;
+   if(profit>0)
+   {
+      printf("profit is %f \n",profit);
+     printf("profit percentage is %f \n",profit*100/cp);
+   }
+
+
+    else
+    {
+        printf("loss is %f \n",loss);
+        printf("loss percentage is %f \n",loss*100/cp);
+    }
+
+
+    return 0;
+
+}
