@@ -7,11 +7,15 @@ int main()
     printf("enter a three number :\n");
     scanf("%d%d%d",&a,&b,&c);
     printf("\n");
-    if(a>b && a>c)
+    if(a>b)
+        if(a>c)
         printf("%d is the greatest",a);
-    else if(b>a && b>c)
+        else
+        printf("%d",c);
+
+    else if(b>c)
         printf("%d is the greatest",b);
-    else
+        else
         printf("%d is the greatest",c);
     return 0;
 
